@@ -1,3 +1,15 @@
+/* charity: water Brand Colors */
+:root {
+    --cw-yellow: #FFC907;
+    --cw-blue: #2E9DF7;
+    --cw-light-blue: #8BD1CB;
+    --cw-green: #4FCB53;
+    --cw-orange: #FF902A;
+    --cw-red: #F5402C;
+    --cw-dark-green: #159A48;
+    --cw-pink: #F16061;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -82,7 +94,7 @@ body {
     line-height: 1.2;
     margin-bottom: 1.5rem;
     letter-spacing: -0.02em;
-    color: #faca07;
+    color: var(--cw-yellow);
 }
 
 .hero-description {
@@ -96,7 +108,7 @@ body {
 
 .cta-button {
     font-family: 'Proxima Nova', 'Avenir', sans-serif;
-    background: #FFD700;
+    background: var(--cw-yellow);
     border: none;
     padding: 1rem 2rem;
     border-radius: 25px;
@@ -112,7 +124,7 @@ body {
 }
 
 .cta-button:hover {
-    background: #FFC107;
+    background: var(--cw-orange);
     transform: translateY(-3px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 4px 10px rgba(0, 0, 0, 0.2);
 }
